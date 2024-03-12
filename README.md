@@ -6,4 +6,4 @@
 - Empleo del mapping = aes()
 
 
-![Test Image 6](images/Data1Unida11.tiff)
+<img src="images/Data1Unida11.tiff" width="128"/>
