@@ -9,7 +9,7 @@
 <img src="/images/Data1Unida11.png" width=60% height=60%>
 
 
-\vspace{10cm}
+<br />
 
 
 <img src="/images/Data1Unida12.png" width=60% height=60%>
