@@ -6,5 +6,5 @@
 - Empleo del mapping = aes()
 
 
-<img src="/images/Data1Unida12.png" width=60% height=60%>
+<img src="/images/LeadsReport11.png" width=60% height=60%>
 
