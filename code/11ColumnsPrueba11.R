@@ -272,14 +272,25 @@ DataUnida12 <- ggarrange(
   , nrow = 3
 )
 
-
-tiff("C:/Users/josec/Downloads/Data1Unida11.tiff", units="in", width=9, height=10, res=300)
+# Esto es para tiff
+#---------------------
+tiff("C:/Users/josec/Downloads/Data1Unida11.png", units="in", width=9, height=10, res=50)
 DataUnida11
 dev.off()
 
-tiff("C:/Users/josec/Downloads/Data1Unida12.tiff", units="in", width=9, height=10, res=300)
+tiff("C:/Users/josec/Downloads/Data1Unida12.png", units="in", width=9, height=10, res=300)
 DataUnida12
 dev.off()
+
+
+
+
+# Esto es para png
+#------------------
+ggsave("C:/Users/josec/Downloads/Data1Unida11.png", plot = DataUnida11, width=9, height=10, dpi=700)
+ggsave("C:/Users/josec/Downloads/Data1Unida12.png", plot = DataUnida12, width=9, height=10, dpi=700)
+
+
 
 
 
